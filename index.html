@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/styleBIG.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form">
+            <div class="form-item form-item-day">
+                <label class="label-item">day</label>
+                <input type="number" class="input-item" id="day" placeholder="DD" min="1" max="31" step="1">
+                <label class="label-item-error">This field is required</label>
+            </div>
+            <div class="form-item form-item-month">
+                <label class="label-item">month</label>
+                <input type="number" class="input-item" id="month" min="1" max="12" step="1" placeholder="MM">
+                <label class="label-item-error">This field is required</label>
+            </div>
+            <div class="form-item form-item-year">
+                <label class="label-item">year</label>
+                <input type="number" class="input-item" id="year" placeholder="YY" min="1" max="2023" step="1">
+                <label class="label-item-error">This field is required</label>
+            </div>
+        </form>
+        <div class="btn">
+            <img src="./img/icon-arrow.svg" alt="" srcset="">
+        </div>
+        <div class="results">
+            <div class="result-item">
+                <p class="result-item-number years">--</p>
+                <p class="result-item-text"> years</p>
+            </div>
+            <div class="result-item">
+                <p class="result-item-number months">--</p>
+                <p class="result-item-text"> months</p>
+            </div>
+            <div class="result-item">
+                <p class="result-item-number days">--</p>
+                <p class="result-item-text"> days</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
